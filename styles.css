@@ -1,0 +1,84 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    width: 800px;
+    font-family: 'Joan', serif;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+
+#hero {
+    background: url("images/jaszfeny.webp");
+    background-size: cover;
+    padding: 10px 0 40px 0;
+    color: #fff;
+    text-shadow: 0 0 15px black;
+}
+
+#main-logo {
+   width: 60px;
+}
+/************************************************************/
+.header {
+    margin-bottom: 30px;
+    background-color: lightcyan;
+}
+#activities {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.home-town {
+    max-width: 150px;
+    height: 200px;
+    margin: 0 auto 20px auto;
+}
+
+img {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+}
+
+#top-three {
+    padding-top: 20px;
+}
+
+
+/***********************************************************/
+.card {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    align-items: center;
+    background: rgb(0,217,247);
+    background: linear-gradient(322deg, rgba(0,217,247,0.2553396358543417) 1%, rgba(38,247,242,1) 59%, rgba(1,120,107,0.5410539215686274) 98%);
+    color: #082c2f;
+    border-radius: 12px;
+    box-shadow: 4px 2px rgba(0,0,0,.3)
+}
+
+.avatar {
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+    width: 180px;
+    height: 250px;
+}
+
+p {
+    font-family: 'Caveat', cursive;
+}
